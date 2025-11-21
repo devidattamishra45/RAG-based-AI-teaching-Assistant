@@ -8,7 +8,7 @@
 
 <h3>A Full-Stack Data Pipeline transforming video lectures into an interactive Knowledge Base.</h3>
 
- [Request Feature](#)
+[View Demo](#) · [Report Bug](../../issues) · [Request Feature](../../issues)
 
 </div>
 
@@ -19,10 +19,10 @@
 > **Problem:** Students spend hours scrubbing through long video lectures to find specific concepts.  
 > **Solution:** This project automates the extraction of knowledge from video content, allowing students to "chat" with their course material.
 
-This is a **Retrieval-Augmented Generation (RAG)** system built . Unlike standard chatbots, this assistant is grounded in ground-truth data from course videos. It ingests video files, transcribes audio, generates vector embeddings, and retrieves precise context to answer student queries accurately.
+This is a **Retrieval-Augmented Generation (RAG)** system built for the University AI Course. Unlike standard chatbots, this assistant is grounded in ground-truth data from course videos. It ingests video files, transcribes audio, generates vector embeddings, and retrieves precise context to answer student queries accurately.
 
 ### 🌟 Key Features
-* **📹 automated Video Processing:** Extracts audio tracks from lecture recordings (`video_to_mp3.py`).
+* **📹 Automated Video Processing:** Extracts audio tracks from lecture recordings (`video_to_mp3.py`).
 * **🗣️ Speech-to-Text Pipeline:** Converts audio data into structured JSON transcripts (`mp3_to_json.py`).
 * **🧠 Vector Embeddings:** Uses `joblib` to store semantic embeddings of the course content for O(1) retrieval.
 * **🔍 Context-Aware Answers:** Fetches the exact timestamp/context relevant to the user's question before generating a response.
@@ -109,4 +109,4 @@ Data Processing: Joblib, JSON
 
 AI/ML: Retrieval Augmented Generation (RAG) technique
 
-NLP: (Insert your specific libraries here, e.g., LangChain, OpenAI, NLTK)
+NLP: OpenAI / LangChain (Assumed)
