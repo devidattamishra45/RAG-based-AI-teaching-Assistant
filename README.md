@@ -8,7 +8,7 @@
 
 <h3>A Full-Stack Data Pipeline transforming video lectures into an interactive Knowledge Base.</h3>
 
-[View Demo](#) · [Report Bug](#) · [Request Feature](#)
+ [Request Feature](#)
 
 </div>
 
@@ -19,7 +19,7 @@
 > **Problem:** Students spend hours scrubbing through long video lectures to find specific concepts.  
 > **Solution:** This project automates the extraction of knowledge from video content, allowing students to "chat" with their course material.
 
-This is a **Retrieval-Augmented Generation (RAG)** system built for my University AI Course. Unlike standard chatbots, this assistant is grounded in ground-truth data from course videos. It ingests video files, transcribes audio, generates vector embeddings, and retrieves precise context to answer student queries accurately.
+This is a **Retrieval-Augmented Generation (RAG)** system built . Unlike standard chatbots, this assistant is grounded in ground-truth data from course videos. It ingests video files, transcribes audio, generates vector embeddings, and retrieves precise context to answer student queries accurately.
 
 ### 🌟 Key Features
 * **📹 automated Video Processing:** Extracts audio tracks from lecture recordings (`video_to_mp3.py`).
