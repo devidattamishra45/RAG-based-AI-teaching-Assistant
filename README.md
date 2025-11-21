@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 # 🤖 AI Teaching Assistant (RAG Pipeline)
@@ -44,7 +46,6 @@ graph TD;
     E --> F;
     F -->|Context + Query| G[LLM / AI Model];
     G --> H[Final Answer];
-
 📂 Project Structure
 The codebase is organized to separate data processing steps from the inference logic.
 
